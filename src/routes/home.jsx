@@ -11,7 +11,7 @@ export const Home = () => {
       <div className="content">
         <h1>support</h1>
         <p>Please tell us how we can help you</p>
-        <TextInput />
+        <TextInput link="topics" />
       </div>
     </>
   );
