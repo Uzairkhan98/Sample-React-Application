@@ -47,7 +47,7 @@ const SubmitButton = ({ link }) => (
   </button>
 );
 
-const TextInput = ({ link }) => {
+const InputForm = ({ link }) => {
   return (
     <form>
       <div className="FormFields">
@@ -59,4 +59,4 @@ const TextInput = ({ link }) => {
   );
 };
 
-export { TextInput };
+export { InputForm };

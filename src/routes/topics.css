@@ -1,0 +1,20 @@
+.header {
+  width: 100vw;
+  background-color: var(--primary-purple);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  row-gap: 0.5rem;
+}
+
+.header > h1 {
+  color: var(--primary-yellow);
+}
+.header > h3 {
+  color: var(--secondary-purple);
+  font-weight: 100;
+}
+
+.topicList {
+  width: 100vw;
+}
