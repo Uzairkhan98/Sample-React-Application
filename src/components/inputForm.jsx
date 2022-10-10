@@ -10,8 +10,8 @@ const NameInput = ({ changeName }) => {
   return (
     <input
       type="text"
-      id="fname"
-      name="fname"
+      // id="fname"
+      // name="fname"
       placeholder="Your Name"
       required
       minLength="3"
