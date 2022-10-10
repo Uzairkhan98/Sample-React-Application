@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import { TextInput } from "../components/textInput";
+import { TextInput } from "../components/inputForm";
 
 export const Home = () => {
   return (

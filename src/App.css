@@ -3,23 +3,25 @@
   padding: 0px;
   box-sizing: border-box;
 
-  --primary-yellow : #d1be3d;
-  --primary-purple : #90689b;
+  --primary-yellow: #efc67c;
+  --primary-purple: #90689b;
 }
 
 body {
-  margin: 0; 
-  padding: 0; 
-  overflow-x:hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-main{
+main {
   position: relative;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   padding: 0px;
   margin: 0px;
 }
-

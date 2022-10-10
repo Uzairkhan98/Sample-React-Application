@@ -1,0 +1,38 @@
+.FormFields {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 1rem;
+  height: 100%;
+}
+
+.FormFields > * {
+  border: 1px solid rgb(207, 207, 207);
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+.buttonFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.submitButton {
+  margin-top: auto;
+  padding-block: 0px;
+  font-size: larger;
+  background-color: var(--primary-yellow);
+  color: var(--primary-purple);
+  margin-bottom: 2rem;
+  font-weight: bold;
+  padding-inline: 1rem;
+}
+
+.submitButton img {
+  height: 2rem;
+  margin-block: auto;
+  filter: invert(47%) sepia(14%) saturate(1124%) hue-rotate(242deg)
+    brightness(93%) contrast(85%);
+}
