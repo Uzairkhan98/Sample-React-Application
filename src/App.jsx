@@ -1,17 +1,13 @@
 import { Link } from "react-router-dom";
+import {Home} from "./routes/home.jsx"
+import './App.css'
 
 export default function App() {
   return (
     <div>
       <h1>Community Support</h1>
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem",
-        }}
-      >
+        <Home/>
         <Link to="/topics">topics</Link> 
-      </nav>
     </div>
   );
 }

@@ -2,4 +2,8 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+
+  --primary-yellow : #F5E050;
+  --primary-purple : #9867C5;
 }
+
