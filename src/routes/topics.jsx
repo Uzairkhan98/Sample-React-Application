@@ -1,7 +1,7 @@
 export default function Topics() {
     return (
-      <main style={{ padding: "1rem 0" }}>
+      <div >
         <h2>Topics</h2>
-      </main>
+      </div>
     );
   }

@@ -3,7 +3,23 @@
   padding: 0px;
   box-sizing: border-box;
 
-  --primary-yellow : #F5E050;
-  --primary-purple : #9867C5;
+  --primary-yellow : #d1be3d;
+  --primary-purple : #90689b;
+}
+
+body {
+  margin: 0; 
+  padding: 0; 
+  overflow-x:hidden;
+}
+
+main{
+  position: relative;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  padding: 0px;
+  margin: 0px;
 }
 

@@ -1,7 +1,32 @@
-.home {
-    background-color: var(--primary-yellow);
+.purple {
+  background-color: var(--primary-purple);
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.purple {
-    background-color: var(--primary-purple);
+.purple > h1 {
+  color: var(--primary-yellow);
+  margin-left: 1rem;
+  margin-bottom: -0.6rem;
+  font-size: 3rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.content > h1 {
+  color: var(--primary-purple);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.content > p {
+  font-weight: 100;
 }
