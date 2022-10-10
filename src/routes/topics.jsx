@@ -1,9 +1,11 @@
 import "./topics.css";
 import { useState, useEffect } from "react";
 import { TopicItem } from "../components/topicItem";
+import { useLocation } from "react-router-dom";
 
 export default function Topics() {
   const [content, setContent] = useState(null);
+  const { state } = useLocation();
 
   useEffect(() => {
     const fetchData = () => {
@@ -19,7 +21,7 @@ export default function Topics() {
   return (
     <div className="topicsPage">
       <div className="header">
-        <h1>Hi, Samiullah</h1>
+        <h1>Hi, {state}</h1>
         <h3>Here is what we have found for you</h3>
       </div>
       <div className="topicList">

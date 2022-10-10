@@ -3,7 +3,6 @@ import "./topicItem.css";
 
 export const TopicItem = ({ data }) => {
   const { answer, answeredBy } = data;
-  console.log(answer, answeredBy);
   return (
     <div className="topic">
       <p>{answer}</p>
