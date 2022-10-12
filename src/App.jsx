@@ -1,4 +1,4 @@
-import { Home } from "./routes/home.jsx";
+import { Home } from "./pages/home.jsx";
 import "./App.css";
 
 export default function App() {

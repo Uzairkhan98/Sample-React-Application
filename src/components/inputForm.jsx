@@ -38,15 +38,9 @@ const QuestionInput = ({ changeQuestion }) => {
   );
 };
 
-const SubmitButton = ({ link, name, question }) => {
-  const navigate = useNavigate();
-  const formSubmit = () => {
-    if (name.length > 3 && question.length > 3) navigate(link, { state: name });
-    // console.log("coming here", name, question);
-  };
-
+const SubmitButton = () => {
   return (
-    <button className="submitButton" type="submit" onClick={formSubmit}>
+    <button className="submitButton" type="submit">
       <div className="buttonFlex">
         <p>Access Support Topics</p>
         <img src={arrowLogo} alt="Arrow Logo" />
@@ -59,6 +53,11 @@ const InputForm = ({ link }) => {
   const [name, setName] = useState("");
   const [question, setQuestion] = useState("");
 
+  const navigate = useNavigate();
+  const formSubmit = () => {
+    navigate(link, { state: name });
+  };
+
   const changeName = (data) => {
     setName(data);
   };
@@ -67,11 +66,11 @@ const InputForm = ({ link }) => {
     setQuestion(data);
   };
   return (
-    <form>
+    <form onSubmit={formSubmit}>
       <div className="FormFields">
         <NameInput changeName={changeName} />
         <QuestionInput changeQuestion={changeQuestion} />
-        <SubmitButton link={link} name={name} question={question} />
+        <SubmitButton />
       </div>
     </form>
   );
